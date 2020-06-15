@@ -19,6 +19,7 @@ h1, h4 {
 
 .social {
   color: white;
+  padding-top: 10px;
 }
 
 .social:hover {
@@ -32,7 +33,7 @@ h1, h4 {
 
 
 .landing-image {
-  max-width: 18%;
+  max-width: 200px;
 }
 
 .btn {
