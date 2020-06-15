@@ -5,6 +5,10 @@ html, body {
   height:100%;
 }
 
+h1, h4 {
+  font-weight: normal;
+}
+
 .border-white {
   border-width: 7px !important;
 }
