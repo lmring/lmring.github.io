@@ -1,0 +1,47 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #ec6c84;
+  height:100%;
+}
+
+.border-white {
+  border-width: 7px !important;
+}
+
+.landing {
+  color: white;
+}
+
+.social {
+  color: white;
+}
+
+.social:hover {
+  color: #303030;
+}
+
+.landing-header {
+  padding-top: 15px;
+  font-size: 48px;
+}
+
+
+.landing-image {
+  max-width: 18%;
+}
+
+.btn {
+  background: white;
+  color: #303030;
+  margin: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn:hover {
+  background: #303030;
+  color: white;
+}
