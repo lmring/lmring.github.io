@@ -24,13 +24,17 @@ nav a {
   color: #ec6c84 !important;
 }
 
+.navbar-toggler {
+  border: none;
+  color: #ec6c84 !important;
+}
+
+
 /* header end */
 
 .title-bar {
   background: #ec6c84;
   color: white;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
