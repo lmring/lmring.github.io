@@ -84,6 +84,14 @@ nav a {
   width:100%;
 }
 
+.carousel-img {
+  max-height: 300px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /* footer start */
 
