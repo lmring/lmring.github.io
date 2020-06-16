@@ -47,6 +47,11 @@ nav a {
   opacity: 50%;
 }
 
+.title-bar-sub {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .container-page p {
   font-weight: lighter;
   font-size: large;
@@ -65,8 +70,27 @@ nav a {
 }
 
 
+.btn-contact {
+  background: #303030;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.img-bio {
+  max-width: 250px;
+  width:100%;
+}
+
 
 /* footer start */
+
+.footer {
+  color: #303030 !important;
+}
+
 
 .footer-social {
   color: #ec6c84;

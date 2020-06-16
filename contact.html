@@ -65,9 +65,51 @@
   </div>
 
   <div class="container-fluid mx-md-5">
-    <div class="container-page mx-md-5 my-4">
+    <div class="container-page ml-md-5 my-4">
       <div class="ml-md-4 mr-auto">
-      <h4>Work in Progress</h4>
+
+<div class="row">
+          <div class="col-md-10 mx-auto">
+                  <form class="needs-validation" novalidate action="https://formspree.io/mgenyjya" method="POST">
+                    <div class="form-group col-md-10">
+                      <label for="contactName">Name</label>
+                      <input type="text" class="form-control" id="contactName" placeholder="Enter name" name="name" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please enter your name.
+                      </div>
+                    </div>
+                    <div class="form-group col-md-10">
+                      <label for="contactEmail">Email Address</label>
+                      <input type="email" class="form-control" id="contactEmail" placeholder="Enter email" name="_replyto" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please provide a valid email address.
+                      </div>
+                    </div>
+                      <div class="form-group col-md-10">
+                        <label for="contactMessage">Message</label>
+                        <textarea class="form-control" id="contactMessage" placeholder="Enter message" rows="3" name="message" required></textarea>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                          Please enter a message.
+                        </div>
+                      </div>
+                      <div class="form-group col-md-10">
+                        <button type="submit" class="btn btn-lg btn-contact float-right">Submit</button>
+                      </div>
+                    <input type="text" name="_gotcha" aria-label="Please leave empty" style="display:none" />
+                    <input type="hidden" name="_next" value="https://google.com">
+                  </form>
+          </div>
+  </div>
+
       </div>
     </div>
     </div>
@@ -83,12 +125,12 @@
           <div class="ml-md-4 mr-auto">
             <span>© 2020 by Lauren Ring</span>
           </div>
-          <div class="pr-md-5 ml-auto">
+          <div class="mr-md-4 ml-auto">
             <a href="https://twitter.com/ringwrites">
-              <i class="fab fa-twitter fa-lg footer-social pr-1"></i>
+              <i class="fab fa-twitter fa-2x footer-social pr-1"></i>
             </a>
             <a href="https://instagram.com/rosefinchie">
-              <i class="fab fa-instagram fa-lg footer-social pl-1"></i>
+              <i class="fab fa-instagram fa-2x footer-social pl-1"></i>
             </a>
           </div>
         </div>
@@ -100,6 +142,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
 
   </body>
   </html>
