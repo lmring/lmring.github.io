@@ -36,19 +36,20 @@ nav a {
 }
 
 .navbar-nav li a:hover, .navbar-nav > .active > a {
-  color: #E25074 !important;
+  color: #C25165 !important;
+  font-weight: 500;
 }
 
 .navbar-toggler {
   border: none;
-  color: #E25074 !important;
+  color: #C25165 !important;
 }
 
 
 /* header end */
 
 .title-bar {
-  background: #E25074;
+  background: #409C99;
   color: white;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -58,16 +59,24 @@ nav a {
   font-family: collector-comic, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 3.5em;
+  font-size: 3.2em;
 }
 
-.title-bar i {
+.title-bar span {
   opacity: 50%;
 }
 
 .title-bar-sub {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.title-bar-purple {
+  background: #9C7BEA;
+}
+
+.title-bar-sub h1{
+  font-size: 2.7em;
 }
 
 .container-page p {
@@ -119,7 +128,7 @@ nav a {
 
 
 .footer-social {
-  color: #E25074;
+  color: #EB667E;
 }
 
 /* footer end */
