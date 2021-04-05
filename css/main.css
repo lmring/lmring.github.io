@@ -79,7 +79,7 @@ nav a {
   font-size: min(max(4.5vw, 36px), 42px);
 }
 
-.container-page p {
+.container-page p, li {
   font-weight: lighter;
   font-size: large;
   margin-bottom: 5px;
