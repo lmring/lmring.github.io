@@ -107,7 +107,9 @@ nav a {
 }
 
 .img-bio {
-  max-width: 250px;
+  max-width: 300px;
+  border-radius: 15px;
+  height: auto;
   width:100%;
 }
 
