@@ -120,6 +120,9 @@ nav a {
   margin-right: auto;
 }
 
+.story h2, .story p, .story br {
+  margin-bottom: 15px;
+}
 
 
 /* footer start */
