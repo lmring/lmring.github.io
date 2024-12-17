@@ -1,0 +1,535 @@
+/* applies to anything of class "example-class-selector" */
+
+
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
+	color: #CC00AA;
+}
+
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+		 background-color: lemonchiffon;
+		 font-family: 'Montserrat', sans-serif;
+ 		color: black;
+}
+
+.divider {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+	text-align: center;
+	color: white;
+	background-image: url("../images/skybg.png");
+}
+
+
+.nav-bar {
+	background-color: white;
+}
+
+.container-dragon {
+	max-width: 1000px;
+	display: inline-block;
+}
+
+/*Start Home Page Navigation Button CSS */
+.container-homebutton{
+	margin-bottom: 10px;
+	max-width: 950px;
+  display: inline-block;
+}
+
+.img-homebanner{
+	max-width: 98%;
+}
+
+.img-homebutton{
+	max-width: 49%;
+}
+/*End Home Page Navigation Button CSS */
+
+/*Start Navigation Button CSS */
+.container-navimg{
+	width:25%;
+	max-width:500px;
+	vertical-align: middle;
+}
+
+.img-navbutton{
+	max-width: 500px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*End Navigation Button CSS */
+
+/*Start Resource Page CSS */
+.container-resourceimg{
+	width:25%;
+	max-width:300px;
+	vertical-align: middle;
+}
+
+.container-resourcetxt{
+	width: 75%;
+}
+
+.resource-icon{
+		max-width:200px;
+		vertical-align: middle;
+}
+/*End Resource Page CSS*/
+
+.img-banner{
+	max-width: 100%;
+	display: inline-block;
+}
+
+.img-dragonbutton{
+	max-width: 23%;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width:5px;
+	border-color: #4c4c4c;
+}
+
+
+.wrapper {
+	outline: 10px double white;
+	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.longbuttonbox {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+select {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.btn {
+	background-color: khaki;
+	border-radius: 24px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  max-width: 500px;
+}
+
+.btn-read{
+	width: 150px;
+  margin: 0 auto;
+}
+
+.btn-home {
+	background-color: #383838;
+	color: white;
+}
+
+.btn-home:hover {
+	background-color: black;
+	color:white;
+}
+
+.btn-gray {
+	background-color: #383838;
+	color: white;
+	max-width:1000px;
+}
+
+.btn-gray:hover {
+	background-color: black;
+	color:white;
+}
+
+.btn-gray:focus{
+	background-color: black;
+	color:white;
+}
+
+.btn-hank {
+	background-color: #de3c30;
+	color: white;
+}
+
+.btn-hank:hover {
+	background-color: darkred;
+	color:white;
+}
+
+.btn-lily {
+	background-color: #ded931;
+	color: white;
+}
+
+.btn-lily:hover {
+	background-color: #999900;
+	color:white;
+}
+
+.btn-margot {
+	background-color: #83de32;
+	color: white;
+}
+
+.btn-margot:hover {
+	background-color: darkgreen;
+	color:white;
+}
+
+.btn-tutter {
+	background-color: #31a7de;
+	color:white;
+}
+
+.btn-tutter:hover {
+	background-color: royalblue;
+	color:white;
+}
+
+.btn-navbar{
+	font-size: 16px;
+}
+
+.btn-sheet{
+	background-color: #383838;
+	color: white;
+	max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn-storysheet{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+ img {
+	max-width: 300px;
+	height: auto;
+}
+
+.hank-text{
+	color: #de3c30;
+}
+
+.hank-bodytext {
+	text-align: left;
+}
+
+.lily-text {
+	color: #ded931;
+}
+
+.lily-bodytext {
+	text-align: left;
+}
+
+.margot-text {
+	color: #83de32;
+}
+
+.margot-bodytext {
+	text-align: left;
+}
+
+.tutter-text {
+	color: #31a7de;
+}
+
+.purple-text {
+	color: #383838;
+	text-align: center;
+}
+
+.attribute-header{
+	background-color: #de3c30;
+	color: white;
+	border-style: double;
+	border-color: white;
+	border-width: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	max-width: 500px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 24px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	color: black;
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+
+ul {
+	list-style: none;
+}
+
+/*li:before {
+    content: "•";
+    padding-right: 8px;
+}*/
+
+#more,
+#more2,
+#more3{
+	display:none;
+}
+
+
+.panel-spell{
+	border-color: #31a7de;
+	border-width: 10px;
+	max-width: 750px;
+}
+
+.panel-equipment{
+	border-color: #ded931;
+	border-width: 10px;
+	max-width: 750px;
+}
+
+.panel-heading-spell{
+	background-color: #31a7de;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+}
+
+	.panel-heading-equipment{
+		background-color: #ded931;
+		color:white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 36px;
+	}
+
+.panel-traits{
+	text-align: left;
+}
+
+
+.spell-desc{
+	text-align: left;
+}
+
+.navBarIcon
+{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.container-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.smallbox{
+	margin-left:75px;
+	margin-right: 25px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.header {
+  background: #555;
+  color: #f1f1f1;
+	padding: 5px;
+}
+
+.wrapper {
+  padding: 16px;
+}
+
+.sticky + .wrapper {
+  padding-top: 102px;
+}
+
+.imgHeader{
+max-width: 100% !important;
+height: auto;
+}
+
+
+nav {
+	border-radius: 0px !important;
+	background-color: #383838;
+	color: white;
+	z-index: 2;
+}
+
+nav a{
+	color: white;
+}
+
+#home:hover{
+	color: white;
+}
+
+.navBasics{
+	background-color: #de3c30;
+}
+
+#basics a:hover{
+	color: #de3c30;
+	background-color: white;
+}
+
+#basics a:focus{
+	color: #de3c30;
+	background-color: white;
+}
+
+.dropdown-menu a:hover{
+	color: #de3c30;
+}
+
+.navIntro{
+	background-color: #ded931;
+}
+
+.introduction{
+	background-image: url("../images/intro-button-bg.png");
+	background-size: cover;
+}
+
+
+#introduction a{
+	color: white;
+}
+
+#introduction a:hover{
+	color: black;
+	background-color: white;
+}
+
+#intro a:hover{
+	color: #ded931;
+	background-color: white;
+}
+
+#intro:focus{
+	color: #de3c30;
+	background-color: white;
+}
+
+.navResources{
+	background-color: #83de32;
+}
+
+#resources a:hover{
+	color: #83de32;
+	background-color: white;
+}
+
+#resources:focus{
+	color: #de3c30;
+	background-color: white;
+}
+
+.navStorySheet{
+	background-color: #31a7de;
+}
+
+#storysheet a:hover{
+	color: #31a7de;
+	background-color: white;
+}
+
+#storysheet:focus{
+	color: #de3c30;
+	background-color: white;
+}
+
+.navbar-right a:hover{
+	color: #383838;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+.banner{
+	max-width: 900px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.banner-page{
+	max-width: 500px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.sheetError{
+	color: red;
+}
+
+.footer{
+	text-align: right;
+	border-top-style: solid;
+	border-top-color: white;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+.web-header{
+	display: none;
+}
+
+.mobile-header{
+	display: block;
+}
+	}

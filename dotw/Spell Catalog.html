@@ -1,0 +1,158 @@
+<!doctype html>
+
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129885111-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129885111-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W3NCDWP');</script>
+<!-- End Google Tag Manager -->
+
+	<title>Spell Catalog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/DOTW.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Kaushan+Script|Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3NCDWP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- header start ******************************************************** -->
+  <div class="web-header">
+  <a href="index.html"><img src="header.png" class="imgHeader"></a>
+  <nav class="navbar" id="stickyNavBar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+      </div>
+      <ul class="nav navbar-nav navText">
+          <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+          <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+          <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+          <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+          <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+          <li><a href="Resources.html">LINKS</a></li>
+          <li><a href="Character Sheet.html">STORY SHEET</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mobile-header collapse">
+  <img src="header.png" class="imgHeader"></img>
+    <nav class="navbar">
+  <div class="container-fluid">
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+   <a class="navbar-brand" href="home.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+  </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+     <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+     <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+     <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+     <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+     <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+     <li><a href="Resources.html">LINKS</a></li>
+     <li><a href="Character Sheet.html">STORY SHEET</a></li>
+   </ul>
+  </div>
+  </div>
+  </nav>
+  </div>
+  <!-- header end ******************************************************** -->
+
+	<div class="wrapper">
+
+		<div class="tutter-text">
+			<h1>Spell Catalog</h1>
+		</div>
+		<div class="divider">
+			<img src="divider.png"></img>
+		</div>
+		<p>Search for spells here! Want to learn more? Visit our <a href="./What are Spells.html">"What are Spells?"</a> page!</p>
+
+		<input id="spell-catalog-input" placeholder="Spell Name"></input>
+		<select class="form-inline" id="spellClass">
+			<option value="classes" selected="selected">All Classes</option>
+			<option value="Bard">Bard</option>
+			<option value="Cleric">Cleric</option>
+			<option value="Druid">Druid</option>
+			<option value="Paladin">Paladin</option>
+			<option value="Ranger">Ranger</option>
+			<option value="Sorcerer">Sorcerer</option>
+			<option value="Paladin">Warlock</option>
+			<option value="Wizard">Wizard</option>
+		</select>
+		<select class="form-inline" id="spellLevel">
+			<option value="level" selected="selected">All Levels</option>
+			<option value="Cantrip">Cantrip</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+		</select>
+		<select class="form-inline" id="spellSchool">
+			<option value="school" selected="selected">All Schools</option>
+			<option value="Abjuration">Abjuration</option>
+			<option value="Conjuration">Conjuration</option>
+			<option value="Divination">Divination</option>
+			<option value="Enchantment">Enchantment</option>
+			<option value="Evocation">Evocation</option>
+			<option value="Illusion">Illusion</option>
+			<option value="Necromancy">Necromancy</option>
+			<option value="Transmutation">Transmutation</option>
+		</select>
+		<button type="button" class="btn btn-lg btn-tutter" id="spell-catalog-button" onclick="spellSearch()">Search</button>
+
+		<div id="spell-catalog-results"></div>
+
+		<div id="no-spells" class="collapse">
+			<h4>No Spells Found!</h4>
+		</div>
+
+	</div>
+
+  <!-- footer-->
+  <div class="footer">
+	<p>Copyright © <a href="https://missdurianne.carrd.co/">Jodie Lim</a> and <a href="https://laurenmring.com/portfolio.html">Lauren Ring.</a> All rights reserved.</p>
+  </div>
+  <!-- footer-->
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/introHCI.js"></script>
+	<script src="js/Spells.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

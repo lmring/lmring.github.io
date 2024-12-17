@@ -1,0 +1,844 @@
+<!doctype html>
+
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129885111-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129885111-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W3NCDWP');</script>
+<!-- End Google Tag Manager -->
+
+	<title>What are Attributes?</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/DOTW.css" rel="stylesheet">
+	<link href="css/Attributes.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Kaushan+Script|Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3NCDWP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- header start ******************************************************** -->
+  <div class="web-header">
+  <a href="index.html"><img src="header.png" class="imgHeader"></a>
+  <nav class="navbar" id="stickyNavBar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+      </div>
+      <ul class="nav navbar-nav navText">
+          <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+          <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+          <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+          <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+          <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+          <li><a href="Resources.html">LINKS</a></li>
+          <li><a href="Character Sheet.html">STORY SHEET</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mobile-header collapse">
+  <img src="header.png" class="imgHeader"></img>
+    <nav class="navbar">
+  <div class="container-fluid">
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+   <a class="navbar-brand" href="home.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+  </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+     <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+     <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+     <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+     <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+     <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+     <li><a href="Resources.html">LINKS</a></li>
+     <li><a href="Character Sheet.html">STORY SHEET</a></li>
+   </ul>
+  </div>
+  </div>
+  </nav>
+  </div>
+  <!-- header end ******************************************************** -->
+
+	<div class="wrapper" id="wrapper"> <!-- centers page and limits width -->
+
+		<div class="hank-text">
+			<h1>Attributes</h1>
+		</div>
+		<div class="divider">
+			<img src="divider.png"></img>
+		</div>
+		<h4>Attributes describe different things about your character.</h4>
+		<h4>Try changing Hank's numeric value for each attribute and see what happens!</h4>
+
+		<!-- Quickjumps -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2">
+					<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToStr()"> STR </button>
+				</div>
+				<div class="col-md-2">
+					<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToDex()"> DEX </button>
+				</div>
+				<div class="col-md-2">
+					<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToCon()"> CON </button>
+				</div>
+				<div class="col-md-2">
+					<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToInt()"> INT </button>
+				</div>
+				<div class="col-md-2">
+					<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToWis()"> WIS </button>
+				</div>
+				<div class="col-md-2">
+					<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToCha()"> CHA </button>
+				</div>
+			</div>
+		</div>
+
+		<!-- STRENGTH **************************************************** -->
+		<div class="container-fluid" id="section-str">
+			<div class="row">
+				<div class="attribute-header">
+					<p>Strength</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<select class="form-control form-hank" id="strength" onchange="StrengthChange()">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10" selected="selected">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+					</select>
+					<!-- Hank is blank section -->
+					<div class="container-fluid collapse" id="Strength1HankImg"> <!-- divs with the collapse tag are initially hidden -->
+						<img src="./images/HankStr1.png" alt="Weak Hank"></img>
+					</div>
+					<div class="container-fluid" id="Strength3HankImg">
+						<img src="./images/HankStr3.png" alt="Medium Hank"></img>
+					</div>
+					<div class="container-fluid collapse" id="Strength5HankImg">
+						<img src="./images/HankStr5.png" alt="Strong Hank"></img>
+					</div>
+
+					<div class="container-fluid collapse" id="Strength1Hank">
+						<h4>Hank has no muscle mass!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Strength2Hank">
+						<h4>Hank has noodles for muscles!</h4>
+					</div>
+					<div class="container-fluid" id="Strength3Hank">
+						<h4>Hank is able to lift most objects!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Strength4Hank">
+						<h4>Hank is pretty strong!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Strength5Hank">
+						<h4>Hank is THE BUFFEST BOY!</h4>
+					</div>
+				</div>
+				<div class="col-md-6 hank-bodytext">
+					<h4>Strength is useful for:</h4>
+					<strong>Melee fighters who rely on weapons</strong>
+					<ul>
+						<li>Barbarians</li>
+						<li>Fighters</li>
+						<li>Paladins</li>
+					</ul>
+					<strong>Spellcasters who have melee weapons as their alternate way of doing damage</strong>
+					<strong>The following checks</strong>
+					<ul>
+						<li>Wrestling</li>
+						<li>Lifting heavy objects</li>
+						<li>Breaking free from your bonds</li>
+					</ul>
+					<strong>The following skills:</strong>
+					<ul>
+						<li>Athletics</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End of STRENGTH **************************************************** -->
+
+		<!-- DEXTERITY ********************************************************** -->
+		<div class="container-fluid collapse" id="section-dex">
+			<div class ="row">
+				<div class="attribute-header">
+					<p>Dexterity</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<select class="form-control form-hank" id="dexterity" onchange="DexterityChange()">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10" selected="selected">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+					</select>
+					<!-- Hank is blank section -->
+					<div class="container-fluid collapse" id="Dexterity1HankImg">
+						<img src="./images/HankDex1.png" alt="Clumsy Hank"></img>
+					</div>
+					<div class="container-fluid" id="Dexterity3HankImg">
+						<img src="./images/HankDex3.png" alt="Medium Hank"></img>
+					</div>
+					<div class="container-fluid collapse" id="Dexterity5HankImg">
+						<img src="./images/HankDex5.png" alt="Agile Hank"></img>
+					</div>
+					<div class="container-fluid collapse" id="Dexterity1Hank">
+						<h4>Hank is the CLUMSIEST MAN ALIVE!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Dexterity2Hank">
+						<h4>Hank probably actually has two left feet!</h4>
+					</div>
+					<div class="container-fluid" id="Dexterity3Hank">
+						<h4>Hank is not too clumsy, not too agile!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Dexterity4Hank">
+						<h4>Hank is pretty good on his feet!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Dexterity5Hank">
+						<h4>Hank is SPIDERHANK!</h4>
+					</div>
+				</div>
+				<div class="col-md-6 hank-bodytext">
+					<h4>Dexterity is useful for:</h4>
+					<strong>Ranged weapons users such as:</strong>
+					<ul>
+						<li>Fighters</li>
+						<li>Rangers</li>
+					</ul>
+
+					<strong>Spellcasters who have ranged weapons as their alternate way of doing damage</strong>
+					<strong>Finesse weapons user such as:</strong>
+					<ul>
+						<li>Bards</li>
+						<li>Monks
+							<ul>
+								<li>When a monk uses a monk weapon, they use dexterity.</li>
+							</ul>
+						</li>
+						<li>Rogues</li>
+					</ul>
+					<strong>Armor Class</strong>
+					<ul>
+						<li>Depending on the armor you wear, your dexterity modifier may or may not come into play.</li>
+						<li>Barbarians have their unarmored defense decided by their dexterity and consitution.</li>
+						<li>Monks have their unarmored defense decided by their dexterity and wisdom.</li>
+					</ul>
+
+					<strong>Having high initiative</strong>
+					<ul>
+						<li>Everytime you go into battle, you roll initiative, which uses your dex modifier.</li>
+						<li>The higher the initiative, the earlier your turn to attack is.</li>
+					</ul>
+
+					<strong>The following checks:</strong>
+					<ul>
+						<li>Enduring certain magical spells</li>
+						<li>Having quick reflexes or a good reaction time</li>
+						<li>Disabling a trap</li>
+					</ul>
+
+					<strong>The following skills:</strong>
+					<ul>
+						<li>Acrobatics</li>
+						<li>Stealth</li>
+						<li>Sleight of Hand</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End of DEXTERITY **************************************************** -->
+
+
+		<!-- CONSTITUTION ********************************************************** -->
+		<div class="container-fluid collapse" id="section-con">
+			<div class="row">
+				<div class="attribute-header">
+					<p>Constitution</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<select class="form-control form-hank" id="constitution" onchange="ConstitutionChange()">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10" selected="selected">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+					</select>
+					<!-- Hank is blank section -->
+					<div class="container-fluid collapse" id="Constitution1HankImg">
+						<img src="./images/HankCon1.png" alt="Frail Hank"></img>
+					</div>
+					<div class="container-fluid" id="Constitution3HankImg">
+						<img src="./images/HankCon3.png" alt="Medium Hank"></img>
+					</div>
+					<div class="container-fluid collapse" id="Constitution5HankImg">
+						<img src="./images/HankCon5.png" alt="Tough Hank"></img>
+					</div>
+					<div class="container-fluid collapse" id="Constitution1Hank">
+						<h4>Hank could be knocked over by a gust of wind!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Constitution2Hank">
+						<h4>Hank could be bested by one swift kick to the knee!</h4>
+					</div>
+					<div class="container-fluid" id="Constitution3Hank">
+						<h4>Hank has a decent constitution, not too frail, not too strong!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Constitution4Hank">
+						<h4>Hank is a pretty tough dude, who can put up with most stuff!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Constitution5Hank">
+						<h4>Hank is MADE OUT OF STEEL!</h4>
+					</div>
+				</div>
+				<div class="col-md-6 hank-bodytext">
+					<h4>Constitution is useful for:</h4>
+					<strong>Anyone who is going to be in the front lines, especially tanks, such as:</strong>
+					<ul>
+						<li>Barbarians</li>
+						<li>Monks</li>
+						<li>Fighters</li>
+						<li>Paladins</li>
+					</ul>
+
+					<strong>Determining your hit points</strong>
+					<ul>
+						<li>Your constitution modifier will be added to all hit points you get.</li>
+					</ul>
+
+					<strong>Barbarian's unarmored defense is determined by dexterity and constitution.</strong>
+
+					<strong>The following checks:</strong>
+					<ul>
+						<li>Holding your breath</li>
+						<li>Going without rest or sleep</li>
+						<li>Drinking alcohol...hic!</li>
+						<li>Resisting poison attacks</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- End of CONSTITUTION **************************************************** -->
+
+		<!-- INTELLIGENCE ********************************************************** -->
+		<div class="container-fluid collapse" id="section-int">
+			<div class ="row">
+				<div class="attribute-header">
+					<p>Intelligence</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<select class="form-control form-hank" id="intelligence" onchange="IntelligenceChange()">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10" selected="selected">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+					</select>
+					<!-- Hank is blank section -->
+					<div class="container-fluid collapse" id="Intelligence1HankImg">
+						<img src="./images/HankInt1.png" alt="Dumb Hank"></img>
+					</div>
+					<div class="container-fluid" id="Intelligence3HankImg">
+						<img src="./images/HankInt3.png" alt="Medium Hank"></img>
+					</div>
+					<div class="container-fluid collapse" id="Intelligence5HankImg">
+						<img src="./images/HankInt5.png" alt="Smart Hank"></img>
+					</div>
+					<div class="container-fluid collapse" id="Intelligence1Hank">
+						<h4>Hank flunked out of class a LONG time ago!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Intelligence2Hank">
+						<h4>Hank gets D’s, at best!</h4>
+					</div>
+					<div class="container-fluid" id="Intelligence3Hank">
+						<h4>Hank is passing all his classes!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Intelligence4Hank">
+						<h4>Hank gets straight A’s!</h4>
+					</div>
+					<div class="container-fluid collapse" id="Intelligence5Hank">
+						<h4>Hank is the next Fantasy Albert Einstein!</h4>
+					</div>
+				</div>
+				<div class="col-md-6 hank-bodytext">
+					<h4>Intelligence is useful for:</h4>
+
+					<strong>Spellcasters who use intelligence to cast spells</strong>
+					<ul>
+						<li>Wizards</li>
+					</ul>
+
+					<strong>Classes that have specializations that can cast spells</strong>
+					<ul>
+						<li>Fighters</li>
+						<li>Rogues</li>
+					</ul>
+
+					<strong>The following checks:</strong>
+					<ul>
+						<li>Resisting certain magical spells</li>
+						<li>Communicating without using words</li>
+						<li>Estimating the value of a precious item</li>
+						<li>Crafting or creating something new</li>
+					</ul>
+
+					<strong>The following skills:</strong>
+					<ul
+					<li>Arcana</li>
+					<li>History</li>
+					<li>Investigation</li>
+					<li>Nature</li>
+					<li>Religion</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- End of INTELLIGENCE **************************************************** -->
+
+	<!-- WISDOM ********************************************************** -->
+	<div class="container-fluid collapse" id="section-wis">
+		<div class ="row">
+			<div class="attribute-header">
+				<p>Wisdom</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<select class="form-control form-hank" id="wisdom" onchange="WisdomChange()">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected="selected">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+				</select>
+				<!-- Hank is blank section -->
+				<div class="container-fluid collapse" id="Wisdom1HankImg">
+					<img src="./images/HankWis1.png" alt="Foolish Hank"></img>
+				</div>
+				<div class="container-fluid" id="Wisdom3HankImg">
+					<img src="./images/HankWis3.png" alt="Medium Hank"></img>
+				</div>
+				<div class="container-fluid collapse" id="Wisdom5HankImg">
+					<img src="./images/HankWis5.png" alt="Wise Hank"></img>
+				</div>
+				<div class="container-fluid collapse" id="Wisdom1Hank">
+					<h4>Hank would buy that bridge in Fantasy Brooklyn!</h4>
+				</div>
+				<div class="container-fluid collapse" id="Wisdom2Hank">
+					<h4>Hank looks up to check if gullible is written on the ceiling!</h4>
+				</div>
+				<div class="container-fluid" id="Wisdom3Hank">
+					<h4>Hank is able to make decent decisions!</h4>
+				</div>
+				<div class="container-fluid collapse" id="Wisdom4Hank">
+					<h4>Hank is a dragon others go to for advice!</h4>
+				</div>
+				<div class="container-fluid collapse" id="Wisdom5Hank">
+					<h4>Hank is a wise old sage!</h4>
+				</div>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h4>Wisdom is useful for:</h4>
+
+				<strong>Spellcasters who use intelligence to cast spells</strong>
+				<ul>
+					<li>Clerics</li>
+					<li>Druids</li>
+					<li>Rangers</li>
+				</ul>
+
+				<strong>Your passive perception</strong>
+				<ul>
+					<li>Passive perception allows the DM to secretly determine if you have noticed something, without asking you to roll the dice! <br>Your passive perception is 10 + your wisdom modifier + proficiency in perception (if you have it)</li>
+				</ul>
+
+				<strong>Monk's unarmored defense is determined by dexterity and wisdom.</strong>
+				<br>
+				<strong>The following checks:</strong>
+				<ul>
+					<li>Resisting certain magical spells, such as being charmed</li>
+				</ul>
+
+				<strong>The following skills:</strong>
+				<ul>
+					<li>Animal Handling</li>
+					<li>Insight</li>
+					<li>Medicine</li>
+					<li>Perception</li>
+					<li>Survival</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- End of WISDOM**************************************************** -->
+
+	<!-- CHARISMA ********************************************************** -->
+	<div class="container-fluid collapse" id="section-cha">
+		<div class ="row">
+			<div class="attribute-header">
+				<p>Charisma</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<select class="form-control form-hank" id="charisma" onchange="CharismaChange()">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected="selected">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+				</select>
+				<!-- Hank is blank section -->
+				<div class="container-fluid collapse" id="Charisma1HankImg">
+					<img src="./images/HankCha1.png" alt="Tongue-tied Hank"></img>
+				</div>
+				<div class="container-fluid" id="Charisma3HankImg">
+					<img src="./images/HankCha3.png" alt="Medium Hank"></img>
+				</div>
+				<div class="container-fluid collapse" id="Charisma5HankImg">
+					<img src="./images/HankCha5.png" alt="Cool Hank"></img>
+				</div>
+				<div class="container-fluid collapse" id="Charisma1Hank">
+					<h4>Hank is out here with his foot deep in his mouth!</h4>
+				</div>
+				<div class="container-fluid collapse" id="Charisma2Hank">
+					<h4>Hank is playing poker with no poker face!</h4>
+				</div>
+				<div class="container-fluid" id="Charisma3Hank">
+					<h4>Hank is not too special or convincing!</h4>
+				</div>
+				<div class="container-fluid collapse" id="Charisma4Hank">
+					<h4>Hank is smooth and silver-tongued!</h4>
+				</div>
+				<div class="container-fluid collapse" id="Charisma5Hank">
+					<h4>Hank could sell you a bridge in Fantasy Brooklyn!</h4>
+				</div>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h4>Charisma is useful for:</h4>
+				<strong>Spellcasters who use intelligence to cast spells</strong>
+				<ul>
+					<li>Bards</li>
+					<li>Paladins</li>
+					<li>Sorcerers</li>
+					<li>Warlocks</li>
+				</ul>
+				<strong>The following checks:</strong>
+				<ul>
+					<li>Resisting certain magical spells, like possession from ghosts</li>
+				</ul>
+				<strong>The following skills</strong>
+				<ul>
+					<li>Deception</li>
+					<li>Intimidation</li>
+					<li>Performance</li>
+					<li>Persuasion</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of CHARISMA**************************************************** -->
+
+	<div class="attribute-header">
+		<p>Modifier Calculator</p>
+	</div>
+	<p>Visit the Point Buy Calculator on the <a href="./Resources.html">Helpful Links</a> page to determine your stats!</p>
+	<p>My <strong>strength</strong> is
+		<select id="strMadLibs" onchange="strMadLibs()">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10" selected="selected">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+		</select>
+		, which means my <strong>STR</strong> modifier is <strong><span id="strMadLibsResult">0</span></strong></p>
+		<p>My <strong>dexterity</strong> is
+			<select id="dexMadLibs" onchange="dexMadLibs()">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10" selected="selected">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			, which means my <strong>DEX</strong> modifier is <strong><span id="dexMadLibsResult">0</span></strong></p>
+			<p>My <strong>constitution</strong> is
+				<select id="conMadLibs" onchange="conMadLibs()">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected="selected">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+				</select>
+				, which means my <strong>CON</strong> modifier is <strong><span id="conMadLibsResult">0</span></strong></p>
+				<p>My <strong>intelligence</strong> is
+					<select id="intMadLibs" onchange="intMadLibs()">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10" selected="selected">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+					</select>
+					, which means my <strong>INT</strong> modifier is <strong><span id="intMadLibsResult">0</span></strong></p>
+					<p>My <strong>wisdom</strong> is
+						<select id="wisMadLibs" onchange="wisMadLibs()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="selected">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+						</select>
+						, which means my <strong>WIS</strong> modifier is <strong><span id="wisMadLibsResult">0</span></strong></p>
+						<p>My <strong>charisma</strong> is
+							<select id="chaMadLibs" onchange="chaMadLibs()">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10" selected="selected">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+							</select>
+							, which means my <strong>CHA</strong> modifier is <strong><span id="chaMadLibsResult">0</span></strong></p>
+
+							<div class="container-fluid">
+								<div class="row">
+									<btn class="btn btn-lg btn-hank" id="attributesSave" onclick="attributesSave()">Save to Story Sheet</button>
+									</div>
+									<div class="row">
+									<div class="container-fluid collapse" id="attributesSaveText">
+										<p>Saved!</p>
+									</div>
+								</div>
+								</div>
+
+							</div>
+
+              <!-- footer-->
+            <div class="footer">
+              <p>Copyright © <a href="https://missdurianne.carrd.co/">Jodie Lim</a> and <a href="https://laurenmring.com/portfolio.html">Lauren Ring.</a> All rights reserved.</p>
+            </div>
+              <!-- footer-->
+
+							<!-- include JavaScript near the end of the HTML file -->
+							<script src="https://code.jquery.com/jquery.js"></script>
+							<script src="js/introHCI.js"></script>
+							<script src="js/MadLibs.js"></script>
+							<script src="js/bootstrap.min.js"></script>
+						</body>
+						</html>

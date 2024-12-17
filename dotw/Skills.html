@@ -1,0 +1,496 @@
+<!doctype html>
+
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129885111-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129885111-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W3NCDWP');</script>
+<!-- End Google Tag Manager -->
+
+	<title>Skills</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/DOTW.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Kaushan+Script|Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3NCDWP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- header start ******************************************************** -->
+  <div class="web-header">
+  <a href="index.html"><img src="header.png" class="imgHeader"></a>
+  <nav class="navbar" id="stickyNavBar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+      </div>
+      <ul class="nav navbar-nav navText">
+          <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+          <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+          <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+          <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+          <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+          <li><a href="Resources.html">LINKS</a></li>
+          <li><a href="Character Sheet.html">STORY SHEET</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mobile-header collapse">
+  <img src="header.png" class="imgHeader"></img>
+    <nav class="navbar">
+  <div class="container-fluid">
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+   <a class="navbar-brand" href="home.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+  </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+     <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+     <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+     <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+     <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+     <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+     <li><a href="Resources.html">LINKS</a></li>
+     <li><a href="Character Sheet.html">STORY SHEET</a></li>
+   </ul>
+  </div>
+  </div>
+  </nav>
+  </div>
+  <!-- header end ******************************************************** -->
+
+		<div class="wrapper">
+				<div class="hank-text">
+					<h1>Skills</h1>
+				</div>
+				<div class="divider">
+					<img src="divider.png"></img>
+				</div>
+
+<div id = "hptext" class="hank-bodytext">
+<h2>What are Skills?</h2>
+<div class="smallbox">
+Skills represent different aspects of each main attribute. If a character is proficient in a skill, that means they are better at that skill than average. Some of these skills might overlap, so it’s up to your DM to decide what check you need to make!
+</div>
+
+<h2>How do Skill Checks Work?</h2>
+<div class="smallbox">
+When your DM requests that you make a skill check, you will roll a D20 and add the modifier for the attribute that skill belongs to. For example, for an Athletics check, you will add your Strength modifier. If you are proficient in a skill, you will also add your proficiency bonus to the roll result.
+</div>
+
+<h2>What skills should I take?</h2>
+<div class="smallbox">
+We give some recommendations based on general usefulness, but it’s important to keep in mind that it also depends on the style of your Dungeon Master. Every skill is useful at the right moment, so don’t be afraid to take something for the sake of roleplay!
+</div>
+
+<br>
+
+				<!-- Quickjumps -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2">
+							<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToStr()"> STR </button>
+						</div>
+						<div class="col-md-2">
+							<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToDex()"> DEX </button>
+						</div>
+						<div class="col-md-2">
+							<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToCon()"> CON </button>
+						</div>
+						<div class="col-md-2">
+							<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToInt()"> INT </button>
+						</div>
+						<div class="col-md-2">
+							<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToWis()"> WIS </button>
+						</div>
+						<div class="col-md-2">
+							<button type="button" class="btn btn-lg btn-block btn-gray" onclick="changeToCha()"> CHA </button>
+						</div>
+					</div>
+				</div>
+
+<!-- STRENGTH SKILLS**************************************************** -->
+<div class="container-fluid" id="section-str">
+	<div class="row">
+		<div class="attribute-header">
+			<p>Strength Skills</p>
+		</div>
+	</div>
+
+	<!--Athletics -->
+	<div class="row">
+		<div class="col-md-6">
+			<img src="images/skill_athletics.png"></img>
+		</div>
+		<div class="col-md-6 hank-bodytext">
+			<h2>Athletics</h2>
+					<p>Athletics covers something that takes a significant effort of physical activity. You might make an athletics check to scale a cliff or swim across a river. In times when it’s really needed might to be clear some debris or lift a boulder off of someone. Some DMs might let you make an athletics check in place of an acrobatics check. </p>
+					<p>This skill is somewhat important, and there should still generally be someone in the party who is capable of this or acrobatics. This is great for more physical characters who need to achieve something out of combat.</p>
+					<p>What backgrounds have this skill?: Outlander, Sailor, and Soldier</p>
+					<p>What classes can learn this skill?: Barbarian, Bard, Fighter, Monk, Paladin, and Ranger</p>
+					<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End-->
+
+</div>
+<!-- End of STRENGTH **************************************************** -->
+
+<!-- DEXTERITY SKILLS**************************************************** -->
+<div class="container-fluid collapse" id="section-dex">
+	<div class="row">
+		<div class="attribute-header">
+			<p>Dexterity Skills</p>
+		</div>
+	</div>
+
+	<!--Acrobatics -->
+	<div class="row">
+		<div class="col-md-6">
+			<img src="images/skill_acrobatics.png"></img>
+		</div>
+		<div class="col-md-6 hank-bodytext">
+			<h2>Acrobatics</h2>
+					<p>Acrobatics refers to stunts and balancing. You might make an acrobatics check to do a backflip or to stay balanced while the ground shakes. Parkour!! This helps a lot with mobility or overcoming obstacles. Some DMs might let you make an acrobatics check in place of an athletics check.</p>
+					<p>This skill is somewhat important, and there should still generally be someone in the party who is capable of this or athletics. This is great for more physical characters who need to achieve something out of combat.</p>
+					<p>What backgrounds have this skill?: Entertainer</p>
+					<p>What classes can learn this skill?: Fighter, Monk, Ranger, and Rogue</p>
+					<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End-->
+
+		<!--Sleight of Hand-->
+		<div class="row">
+			<div class="col-md-6">
+						<img src="images/skill_sleightofhand.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Sleight of Hand</h2>
+						<p>Sleight of hand refers to physical tricks and theft. You might make a sleight of hand check to perform a card trick, pickpocket someone, or pick a lock.</p>
+						<p>This skill is essential for rogues. Do not overlook this skill. If there is not a rogue on the team, it would be very useful to the party if at least one person knows how to pick a lock.</p>
+						<p>What backgrounds have this skill?: Charlatan and Urchin</p>
+						<p>What classes can learn this skill?: Bard, Rogue</p>
+						<p>What races have this skill?: None</p>
+					</div>
+		</div> <!--End-->
+
+		<!--Investigation-->
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/skill_stealth.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Stealth</h2>
+						<p>Stealth covers any action that needs to stay hidden. You might make a stealth check to sneak out of an inn at night or to hide in the shadows of an alley. This skill is extremely useful of getting out of messy situations or trying to accomplish something subtly. </p>
+						<p>This skill is one of the most important skills in the game. If you can get your hands on this skill, you really should take it. All classes benefit from knowing how to stealth.</p>
+						<p>What backgrounds have this skill?: Criminal and Urchin</p>
+						<p>What classes can learn this skill?: Bard, Monk, Ranger, and Rogue</p>
+						<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End -->
+
+
+	</div>
+</div>
+<!-- End of DEXTERITY **************************************************** -->
+
+<div class="container-fluid collapse" id="section-con">
+	<div class="row">
+		<div class="attribute-header">
+			<p>No Constitution Skills</p>
+		</div>
+	</div>
+
+
+</div>
+
+<!-- INTELLIGENCE SKILLS**************************************************** -->
+<div class="container-fluid collapse" id="section-int">
+	<div class="row">
+		<div class="attribute-header">
+			<p>Intelligence Skills</p>
+		</div>
+	</div>
+
+	<!--Arcana -->
+	<div class="row">
+		<div class="col-md-6">
+			<img src="images/skill_arcana.png"></img>
+		</div>
+		<div class="col-md-6 hank-bodytext">
+			<h2>Arcana</h2>
+					<p>Arcana refers to your knowledge about magic. You might make an arcana check to determine the ability of a magic item or to identify a spell someone else has cast.</p>
+					<p>This skill is a decent one. It’s generally advised that at least one person in the party should have this skill. It can provide more information as the party tries to figure out what is going on in the story or move through a dungeon.</p>
+					<p>What backgrounds have this skill?: Sage</p>
+					<p>What classes can learn this skill?: Bard, Druid, Sorcerer, Warlock, and Wizard</p>
+					<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End-->
+
+		<!--History-->
+		<div class="row">
+			<div class="col-md-6">
+						<img src="images/skill_history.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>History</h2>
+						<p>History refers to your knowledge about the history of the world of your campaign. You might make a history check to remember the name of a long-dead king or to recall the outcome of an ancient war.</p>
+						<p>This skill is mostly helpful for roleplay. It still might help your character solve mysteries or help them through problems or intrigue. It’s worth looking into if it seems campaign appropriate. However, you could definitely go a long time without having to roll a history check.</p>
+						<p>What backgrounds have this skill?: Noble and Sage</p>
+						<p>What classes can learn this skill?: Bard, Cleric, Fighter, Monk, Warlock, and Wizard</p>
+						<p>What races have this skill?: None</p>
+		</div> <!--End-->
+
+		<!--Investigation-->
+		<div class="row">
+			<div class="col-md-6">
+					<img src="images/skill_investigation.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Investigation</h2>
+						<p>Investigation covers any searching action. You might make an investigation check to look for clues in an old book or to find an escape route from a prison cell.</p>
+						<p>This skill is extremely useful. In Dungeons and Dragons, you’ll often find yourself needing to learn more to get out of a sticky situation or find out what to do next! </p>
+						<p>The comparative skill is Perception, which could be lightly considered as the wisdom counterpart to this skill. They’re both very useful, but if you have to choose one, perception is better. That being said, if your wisdom sucks, you can just take investigation and maximize on your skills.</p>
+						<p>What backgrounds have this skill?: None</p>
+						<p>What classes can learn this skill?: Bard, Ranger, Rogue, Warlock, and Wizard</p>
+						<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End -->
+
+		<!--Nature-->
+		<div class="row">
+			<div class="col-md-6">
+						<img src="images/skill_nature.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Nature</h2>
+						<p>Nature refers to your knowledge about the natural world. You might make a nature check to decide if a plant is edible or to identify a wild animal.</p>
+						<p>This skill is not super useful. It really depends on the campaign. If you know you’re going to be doing a lot of nature related things, I would consider it. However, it’s very situational. You will probably be fine letting someone with high wisdom make these checks, you don’t really need the proficiency bonus.</p>
+						<p>What backgrounds have this skill?: None</p>
+						<p>What classes can learn this skill?: Barbarian, Bard, Druid, Ranger, and Warlock</p>
+						<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End-->
+
+		<!--Religion-->
+		<div class="row">
+			<div class="col-md-6">
+							<img src="images/skill_religion.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Religion</h2>
+						<p>Religion refers to your knowledge about the various religions of your campaign’s world. You might make a religion check to identify a holy symbol or to figure out the meaning of a prayer.</p>
+						<p>This skill is mostly just roleplay, but it has its uses. If campaign relevant, it can be really helpful. However, if religion is not very relevant to your story or your DM’s interests, this skill be collecting a lot of dust.</p>
+						<p>What backgrounds have this skill?: Acolyte and Hermit</p>
+						<p>What classes can learn this skill?: Bard, Cleric, Druid, Monk, Paladin, Sorcerer, Warlock, and Wizard</p>
+						<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End-->
+
+	</div>
+</div>
+<!-- End of INTELLIGENCE **************************************************** -->
+
+<!-- WISDOM SKILLS**************************************************** -->
+<div class="container-fluid collapse" id="section-wis">
+	<div class="row">
+		<div class="attribute-header">
+			<p>Wisdom Skills</p>
+		</div>
+	</div>
+
+	<!--Animal Handling -->
+	<div class="row">
+		<div class="col-md-6">
+			<img src="images/skill_animalhandling.png"></img>
+		</div>
+		<div class="col-md-6 hank-bodytext">
+			<h2>Animal Handling</h2>
+					<p>Animal handling covers any action involving animals. You might make an animal handling check to calm a frightened dog or to mount an unruly horse.</p>
+					<p>This skill has its situational uses. Sure it won’t help you punch better, but it’s good for roleplay or getting out of sticky animal related situations. Also, who doesn’t like making a new friend? Who’s a good boy?</p>
+					<p>What backgrounds have this skill?: Folk Hero</p>
+					<p>What classes can learn this skill?: Barbarian, Bard, Druid, and Fighter</p>
+					<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End Deception-->
+
+		<!--Insight-->
+		<div class="row">
+			<div class="col-md-6">
+						<img src="images/skill_insight.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Insight</h2>
+						<p>Insight refers to your ability to determine someone’s intentions. You might make an insight check when trying to figure out if a stranger is friend or foe or to see if a shopkeeper is willing to haggle.</p>
+						<p>It can be pretty useful seeing through someone’s BS. It’s a solid skill to pick up, and sees its uses. Don’t be afraid to ask to roll an insight check when you want more information!</p>
+						<p>What backgrounds have this skill?: Acolyte and Guild Artisan</p>
+						<p>What classes can learn this skill?: Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, and Wizard</p>
+						<p>What races have this skill?: None</p>
+		</div> <!--End Intimidation-->
+
+		<!--Performance-->
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/skill_medicine.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Medicine</h2>
+						<p>Medicine refers to your knowledge of health, illness, and remedies. You might make a medicine check to stabilize someone who is dying or to figure out if a rash is a sign of something serious.</p>
+						<p>This skill is not super useful. The biggest use you will find for it is stabilizing someone so they don’t have to keep rolling their death saving throws. However, you can do the same thing by healing them, even if it’s just one hit point. If your cleric has the spare the dying cantrip, you can just absolutely forget about this skill. </p>
+						<p>If you don’t have a cleric and your party isn’t really big on healing, maybe consider this? It’s a hard sell.</p>
+						<p>What backgrounds have this skill?: Hermit</p>
+						<p>What classes can learn this skill?: Bard, Cleric, Druid, and Paladin</p>
+						<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End -->
+
+		<!--Persuasion-->
+		<div class="row">
+			<div class="col-md-6">
+						<img src="images/skill_perception.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Perception</h2>
+						<p>Perception covers anything your character needs to notice. You might make a perception check to overhear a nearby conversation or to spot goblins lurking in the trees.</p>
+						<p>This skill is extremely useful. It’s easy to argue that this is the most useful skill in the entire game. In Dungeons and Dragons, you’ll often find yourself needing to learn more to get out of a sticky situation or find out what to do next! This is also the exact skill that rivals stealth, so you can thwart enemies and prevent yourself from being snuck up on!</p>
+						<p>The comparative skill is Investigation, which could be lightly considered as the intelligence counterpart to this skill. They’re both very useful, but if you have to choose one, perception is better. That being said, if your wisdom sucks, you can just take investigation and maximize on your skills.</p>
+						<p>What backgrounds have this skill?: Sailor</p>
+						<p>What classes can learn this skill?: Barbarian, Bard, Druid, Fighter, Ranger, and Rogue</p>
+						<p>What races have this skill?: Elf</p>
+			</div>
+		</div> <!--End-->
+
+		<!--Survival-->
+		<div class="row">
+			<div class="col-md-6">
+					<img src="images/skill_survival.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+				<h2>Survival</h2>
+						<p>Survival refers to your ability to survive in nature. You might make a survival check to follow animal tracks or to build a shelter for the night.</p>
+						<p>This skill is extremely useful, especially if you know you’re going to be travelling a lot in your campaign. You’ll have to find some viable shelter somehow, and this is the skill that makes it happen.</p>
+						<p>If you know you’re not doing much of that, or that your DM isn’t a fan of survival checks, the skill becomes much more situational.</p>
+						<p>What backgrounds have this skill?: Folk Hero and Outlander</p>
+						<p>What classes can learn this skill?: Barbarian, Bard, Druid, Fighter, and Ranger</p>
+						<p>What races have this skill?: None</p>
+			</div>
+		</div> <!--End-->
+
+	</div>
+</div>
+<!-- End of WISDOM **************************************************** -->
+
+<!-- CHARISMA SKILLS**************************************************** -->
+<div class="container-fluid collapse" id="section-cha">
+	<div class="row">
+		<div class="attribute-header">
+			<p>Charisma Skills</p>
+		</div>
+	</div>
+	<div class="row">
+
+		<!--Deception-->
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/skill_deception.png"></img>
+			</div>
+			<div class="col-md-6 hank-bodytext">
+			<h2>Deception</h2>
+					<p>Deception refers to your ability to hide the truth. You might make a deception check to lie on the witness stand or to convince someone they have never seen you before.</p>
+					<p>You’re lying to get what you want. Pretend to be someone else, or lie about what you were doing! The usability of this skill depends entirely on how often your character will be out here lying. If you don’t know how often you’ll be lying or disguising yourself, maybe take up persuasion instead.</p>
+					<p>What backgrounds have this skill?: Charlatan and Criminal</p>
+					<p>What classes can learn this skill?: Bard, Rogue, Sorcerer, and Warlock</p>
+					<p>What races have this skill?: None</p>
+				</div>
+			</div> <!--End Deception-->
+
+			<!--Intimidation-->
+			<div class="row">
+				<div class="col-md-6">
+							<img src="images/skill_intimidation.png"></img>
+				</div>
+				<div class="col-md-6 hank-bodytext">
+					<h2>Intimidation</h2>
+					<p>Intimidation refers to your ability to use overt or implied threats to persuade others. You might make an intimidation check to scare away townsfolk or to break up a fight.</p>
+					<p>This skill is nice if you like throwing your weight around. To use this skill, you will have to be cracking some knuckles or making some threats, which could also go badly if your roll goes south. If you’d rather talk your way out of things civilly, take persuasion.</p>
+					<p>What backgrounds have this skill?: Soldier</p>
+					<p>What classes can learn this skill?: Barbarian, Bard, Fighter, Paladin, Rogue, Sorcerer, and Warlock</p>
+					<p>What races have this skill?: Half-Orc</p>
+				</div>
+			</div> <!--End Intimidation-->
+
+			<!--Performance-->
+			<div class="row">
+				<div class="col-md-6">
+							<img src="images/skill_performance.png"></img>
+				</div>
+				<div class="col-md-6 hank-bodytext">
+					<h2>Performance</h2>
+							<p>Performance refers to your ability to entertain others. You might make a performance check to sing a song or to tell a ghost story.</p>
+							<p>This skill is nice if you like roleplay, but not by any means a necessary one. If you’re creative, it can be a fun skill to use in the game to solve problems or just have a good time.</p>
+							<p>What backgrounds have this skill?: Entertainer</p>
+							<p>What classes can learn this skill?: Bard, Rogue</p>
+							<p>What races have this skill?: None</p>
+				</div>
+			</div> <!--End -->
+
+			<!--Persuasion-->
+			<div class="row">
+				<div class="col-md-6">
+							<img src="images/skill_persuasion.png"></img>
+				</div>
+				<div class="col-md-6 hank-bodytext">
+					<h2>Persuasion</h2>
+							<p>Persuasion refers to your ability to influence others. You might make a persuasion check to negotiate a peace treaty or to get a lower price on a sword you want to buy.</p>
+							<p>Out of all of the talking skills, this one is the most recommended. It’s nice being able to get your way just by asking. It’s easier to be consistent about using this skill instead of having to yell or lie every time you need something to happen.</p>
+							<p>What backgrounds have this skill?: Guild Artisan and Noble</p>
+							<p>What classes can learn this skill?: Bard, Cleric, Paladin, Sorcerer</p>
+							<p>What races have this skill?: None</p>
+				</div>
+			</div> <!--End-->
+
+	</div>
+</div>
+<!-- End of CHARISMA **************************************************** -->
+
+			</div>
+		</div>
+
+    <!-- footer-->
+    <div class="footer">
+		<p>Copyright © <a href="https://missdurianne.carrd.co/">Jodie Lim</a> and <a href="https://laurenmring.com/portfolio.html">Lauren Ring.</a> All rights reserved.</p>
+    </div>
+    <!-- footer-->
+
+			<script src="https://code.jquery.com/jquery.js"></script>
+			<script src="js/introHCI.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+
+			</body>
+			</html>

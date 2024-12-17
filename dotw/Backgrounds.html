@@ -1,0 +1,281 @@
+<!doctype html>
+
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129885111-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129885111-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W3NCDWP');</script>
+<!-- End Google Tag Manager -->
+
+	<title>Backgrounds</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/DOTW.css" rel="stylesheet">
+	<link href="css/Classes.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Kaushan+Script|Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3NCDWP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- header start ******************************************************** -->
+  <div class="web-header">
+  <a href="index.html"><img src="header.png" class="imgHeader"></a>
+  <nav class="navbar" id="stickyNavBar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+      </div>
+      <ul class="nav navbar-nav navText">
+          <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+          <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+          <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+          <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+          <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+          <li><a href="Resources.html">LINKS</a></li>
+          <li><a href="Character Sheet.html">STORY SHEET</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mobile-header collapse">
+  <img src="header.png" class="imgHeader"></img>
+    <nav class="navbar">
+  <div class="container-fluid">
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+   <a class="navbar-brand" href="home.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+  </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+     <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+     <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+     <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+     <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+     <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+     <li><a href="Resources.html">LINKS</a></li>
+     <li><a href="Character Sheet.html">STORY SHEET</a></li>
+   </ul>
+  </div>
+  </div>
+  </nav>
+  </div>
+  <!-- header end ******************************************************** -->
+
+	<div class="wrapper">
+
+	<div class="margot-text">
+			<h1>Backgrounds</h1>
+	</div>
+			<div class="divider">
+				<img src="divider.png"></img>
+			</div>
+			<div class="margot-bodytext">
+			<p>Backgrounds explain who your character was before they became an adventurer. Which background you choose defines some proficiencies, languages, equipment, and features. </p>
+			<p>Having a background is essential for roleplaying. As the official handbook suggests, think about what changed. Why is your character an adventurer now, instead of staying with their background role?</p>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="margot-header">
+						<p>Check Out Backgrounds!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<select class="form-control form-hank" id="backgrounds" onchange="backgroundChange()">
+								<option value="acolyte" selected="selected">Acolyte</option>
+								<option value="charlatan">Charlatan</option>
+								<option value="criminal">Criminal</option>
+								<option value="entertainer">Entertainer</option>
+								<option value="folk-hero">Folk Hero</option>
+								<option value="guild-artisan">Guild Artisan</option>
+								<option value="hermit">Hermit</option>
+								<option value="noble">Noble</option>
+								<option value="outlander">Outlander</option>
+								<option value="sage">Sage</option>
+								<option value="sailor">Sailor</option>
+								<option value="soldier">Soldier</option>
+								<option value="urchin">Urchin</option>
+							</select>
+
+							<div class="container-fluid background" id="acolyteImage">
+								<img src="images/MargotBG_Acolyte.png" alt="Acolyte Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="charlatanImage">
+								<img src="images/MargotBG_Charlatan.png" alt="Charlatan Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="criminalImage">
+								<img src="images/MargotBG_Criminal.png" alt="Criminal Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="entertainerImage">
+								<img src="images/MargotBG_Entertainer.png" alt="Entertainer Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="folkheroImage">
+								<img src="images/MargotBG_FolkHero.png" alt="Folk Hero Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="guildartisanImage">
+								<img src="images/MargotBG_GuildArtisan.png" alt="Guild Artisan Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="hermitImage">
+								<img src="images/MargotBG_Hermit.png" alt="Hermit Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="nobleImage">
+								<img src="images/MargotBG_Noble.png" alt="Noble Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="outlanderImage">
+								<img src="images/MargotBG_Outlander.png" alt="Outlander Margot"></img>
+							</div>
+							<div class="ccontainer-fluid background collapse" id="sageImage">
+								<img src="images/MargotBG_Sage.png" alt="Sage Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="sailorImage">
+								<img src="images/MargotBG_Sailor.png" alt="Sailor Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="soldierImage">
+								<img src="images/MargotBG_Soldier.png" alt="Soldier Margot"></img>
+							</div>
+							<div class="container-fluid background collapse" id="urchinImage">
+								<img src="images/MargotBG_Urchin.png" alt="Urchin Margot"></img>
+							</div>
+						</div>
+							<div class="col-md-6">
+								<div class="row margot-bodytext">
+									<div class="container-fluid background" id="acolyteText">
+										<h4>Acolyte</h4>
+										<p><strong>Proficiencies:</strong> Insight, Religion</p>
+										<p><strong>Languages:</strong> Two of your choice</p>
+										<p><strong>Equipment:</strong> A holy symbol, a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a pouch with 15 gp</p>
+										<p><strong>Feature:</strong> Shelter of the Faithful - You and your companions receive healing, care, and shelter at temples of your faith. If you have ties to a specific temple, you can call upon it for more serious assistance when nearby.</p>
+									</div>
+									<div class="container-fluid background collapse" id="charlatanText">
+										<h4>Charlatan</h4>
+										<p><strong>Proficiencies:</strong> Deception, Sleight of Hand, disguise kit, forgery kit</p>
+										<p><strong>Equipment:</strong> A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a pouch with 15 gp</p>
+										<p><strong>Feature:</strong> False Identity - You have a second identity with documentation, established acquaintances, and documentation that allow you to assume that persona. You can also forge documents once you have seen a sample of what you are trying to copy.</p>
+									</div>
+									<div class="container-fluid background collapse" id="criminalText">
+										<h4>Criminal</h4>
+										<p><strong>Proficiencies:</strong> Deception, Stealth, one type of gaming set, thieves’ tools</p>
+										<p><strong>Equipment:</strong> A crowbar, a set of dark common clothes including a hood, and a pouch with 15 gp</p>
+										<p><strong>Feature:</strong> riminal Contact - You have a reliable contact that connects you to a network of other criminals. You can get messages to and from this contact even over great distances.</p>
+									</div>
+									<div class="container-fluid background collapse" id="entertainerText">
+										<h4>Entertainer</h4>
+										<p><strong>Proficiencies:</strong> Acrobatics, Performance, disguise kit, one type of musical instrument</p>
+										<p><strong>Equipment:</strong> A musical instrument of your choice, the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a pouch with 15 gp</p>
+										<p><strong>Feature:</strong> By Popular Demand - You can always find a place to perform, and will receive free lodging and food there as long as you perform each night.</p>
+									</div>
+									<div class="container-fluid background collapse" id="folkheroText">
+										<h4>Folk Hero</h4>
+										<p><strong>Proficiencies:</strong> Animal Handling, Survival, one type of artisan’s tools, land vehicles</p>
+										<p><strong>Equipment:</strong> A set of artisan’s tools of your choice, a shovel, an iron pot, a set of common clothes, and a pouch with 10 gp</p>
+										<p><strong>Feature:</strong> Rustic Hospitality - You can find a place to hide, rest, or recuperate among other commoners, who will shield you from the law or people searching for you.</p>
+									</div>
+									<div class="container-fluid background collapse" id="guildartisanText">
+										<h4>Guild Artisan</h4>
+										<p><strong>Proficiencies:</strong> Insight, Persuasion, one type of artisan’s tools</p>
+										<p><strong>Languages:</strong> One of your choice</p>
+										<p><strong>Equipment:</strong> A set of artisan’s tools of your choice, a letter of introduction from your guild, a set of traveler’s clothes, and a pouch with 15 gp</p>
+										<p><strong>Feature:</strong> Guild Membership - Your guild will provide you with lodging, food, a meeting place for other members of your profession, and political power. You must pay dues of 5 gp per month to your guild.</p>
+									</div>
+									<div class="container-fluid background collapse" id="hermitText">
+										<h4>Hermit</h4>
+										<p><strong>Proficiencies:</strong> Medicine, Religion, herbalism kit</p>
+										<p><strong>Languages:</strong> One of your choice</p>
+										<p><strong>Equipment:</strong> A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of common clothes, an herbalism kit, and 5 gp</p>
+										<p><strong>Feature:</strong> Discovery - The quiet seclusion of your hermitage gave you access to a unique and powerful discovery. Work with your DM to determine the details of your discovery and its impact on the campaign.</p>
+									</div>
+									<div class="container-fluid background collapse" id="nobleText">
+										<h4>Noble</h4>
+										<p><strong>Proficiencies:</strong> History, Persuasion, one type of gaming set</p>
+										<p><strong>Languages:</strong> One of your choice</p>
+										<p><strong>Equipment:</strong> A set of fine clothes, a signet ring, a scroll of pedigree, and a purse with 25 gp</p>
+										<p><strong>Feature:</strong> Position of Privilege - Thanks to your noble birth, people are inclined to think the best of you. People assume you have the right to be wherever you are and the common folk make every effort to accommodate you.</p>
+									</div>
+									<div class="container-fluid background collapse" id="outlanderText">
+										<h4>Outlander</h4>
+										<p><strong>Proficiencies:</strong> Athletics, Survival, one type of musical instrument</p>
+										<p><strong>Languages:</strong> One of your choice</p>
+										<p><strong>Equipment:</strong> A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a pouch containing 10 gp</p>
+										<p><strong>Feature:</strong> Wanderer - You can always recall the general layout of terrain, settlements, and other features around you. You can also find food and fresh water for yourself and up to five other people each day, provided that the land is suitable for this.</p>
+									</div>
+									<div class="container-fluid background collapse" id="sageText">
+										<h4>Sage</h4>
+										<p><strong>Proficiencies:</strong> Arcana, History</p>
+										<p><strong>Languages:</strong> Two of your choice</p>
+										<p><strong>Equipment:</strong> A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not been able to answer, a set of common clothes, and a pouch with 10 gp</p>
+										<p><strong>Feature:</strong> When you attempt to learn or recall a piece of lore, if you do not know it, you often know where and from whom you can obtain it. This is at the DM’s discretion, and they can rule that a piece of knowledge is unfindable.</p>
+									</div>
+									<div class="container-fluid background collapse" id="sailorText">
+										<h4>Sailor</h4>
+										<p><strong>Proficiencies:</strong> Athletics, Perception, navigator’s tools, water vehicles</p>
+										<p><strong>Equipment:</strong> A belaying pin, 50 ft of silk rope, a lucky charm, a set of common clothes, and a pouch with 10 gp</p>
+										<p><strong>Feature:</strong> Ship’s Passage - When you need to, you can secure free passage on a sailing ship for yourself and your companions, in return for assisting the crew during the voyage.</p>
+									</div>
+									<div class="container-fluid background collapse" id="soldierText">
+										<h4>Soldier</h4>
+										<p><strong>Proficiencies:</strong> Athletics, Intimidation, one type of gaming set, land vehicles</p>
+										<p><strong>Equipment:</strong> An insignia of rank, a trophy taken from a fallen enemy (dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of common clothes, and a pouch with 10 gp</p>
+										<p><strong>Feature:</strong> Military Rank - You can use your rank to exert influence over other soldiers, requisition simple equipment or horses, and gain access to friendly military encampments.</p>
+									</div>
+									<div class="container-fluid background collapse" id="urchinText">
+										<h4>Urchin</h4>
+										<p><strong>Proficiencies:</strong>  Sleight of Hand, Stealth, disguise kit, thieves’ tools</p>
+										<p><strong>Equipment:</strong> A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a pouch with 10 gp</p>
+										<p><strong>Feature:</strong> City Secrets - When you are not in combat, you and your companions can travel between any two locations in the city twice as fast as your speed would normally allow.</p>
+									</div>
+								</div>
+								<div class="row">
+									<btn class="btn btn-lg btn-margot" id="backgroundSave" onclick="backgroundSave()">Save to Story Sheet</button>
+									</div>
+									<div class="row">
+									<div class="container-fluid collapse" id="backgroundSaveText">
+										<p>Saved!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+		</div>
+
+    <!-- footer-->
+  <div class="footer">
+    <p>Copyright © <a href="https://missdurianne.carrd.co/">Jodie Lim</a> and <a href="https://laurenmring.com/portfolio.html">Lauren Ring.</a> All rights reserved.</p>
+  </div>
+    <!-- footer-->
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/introHCI.js"></script>
+	<script src="js/MadLibs.js"></script>
+	<script src="js/Backgrounds.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

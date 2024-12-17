@@ -1,0 +1,74 @@
+.hank-bodytext{
+	text-align: left;
+}
+
+.form-control{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.form-hank{
+	height: 50px;
+	width: 250px;
+}
+
+.hank{
+  	max-width: 50%;
+		height: auto;
+}
+
+.panel-attribute{
+	border-color: #de3c30;
+	border-width: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.panel-heading-attribute{
+	background-color: #de3c30;
+	color:white;
+	font-family: 'Caveat', cursive;
+	font-size: 36px;
+}
+
+
+em{
+  	font-family: 'Caveat', sans-serif;
+  	color: #de3c30;
+    font-size: 50px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+	font-weight:bold;
+	color: black;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.attribute-header{
+	background-color: #de3c30;
+	color: white;
+	border-style: double;
+	border-color: white;
+	border-width: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	max-width: 500px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 24px;
+}
+
+.hank-header-text{
+	font-family: 'Caveat', cursive;
+	font-size: 48px;
+	color: #de3c30;
+}

@@ -1,0 +1,781 @@
+<!doctype html>
+
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129885111-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129885111-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W3NCDWP');</script>
+<!-- End Google Tag Manager -->
+
+	<title>Races</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/DOTW.css" rel="stylesheet">
+	<link href="css/Classes.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Kaushan+Script|Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3NCDWP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- header start ******************************************************** -->
+  <div class="web-header">
+  <a href="index.html"><img src="header.png" class="imgHeader"></a>
+  <nav class="navbar" id="stickyNavBar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+      </div>
+      <ul class="nav navbar-nav navText">
+          <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+          <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+          <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+          <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+          <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+          <li><a href="Resources.html">LINKS</a></li>
+          <li><a href="Character Sheet.html">STORY SHEET</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mobile-header collapse">
+  <img src="header.png" class="imgHeader"></img>
+    <nav class="navbar">
+  <div class="container-fluid">
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+   <a class="navbar-brand" href="home.html" id="home"><img src="icon.png" class="navBarIcon"></a>
+  </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+     <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+     <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+     <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+     <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+     <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+     <li><a href="Resources.html">LINKS</a></li>
+     <li><a href="Character Sheet.html">STORY SHEET</a></li>
+   </ul>
+  </div>
+  </div>
+  </nav>
+  </div>
+  <!-- header end ******************************************************** -->
+
+	<div class="wrapper">
+
+		<div class="margot-text">
+			<h1>Races</h1>
+		</div>
+		<div class="divider">
+			<img src="divider.png"></img>
+		</div>
+
+		<div id = "race-intro" class="margot-bodytext smallbox">
+			<p>One of the most important parts of creating your character is choosing their race. Race determines a lot of things, from statistics to special traits. Choose a race and Margot will bring one of her friends over to explain it to you! </p>
+			<p>Be mindful that the history of these races may differ for some campaigns, so be sure to ask your DM what the culture of these races are in your campaign!</p>
+			<p>You might choose a race before or after you roll your dice to make a character. Choosing a race might be beneficial to maximizing some of your stats (i.e. you have a high roll and a bonus to dexterity, so you boost your rogue to 20 dexterity with a +5 modifier). You also might use it to mitigate some of your weaknesses. For example, you might decide intelligence is a “dump stat” for your character. You decide to use 9, your lowest number, which has a modifier of -1. However, you make your character a gnome, which means you add +2 to your Intelligence, giving your character 11 intelligence, which is actually a +0! This means you don’t have any negative modifiers.</p>
+			<p>Keep in mind that any race can be any class. There is a very feasible build with every combination! You don’t have to make something stereotypical like a dwarf barbarian, feel free to make a dwarf druid or a dwarf sorcerer! Choosing a nontraditional combination might make for fun roleplay, as it’s only important that your stats back up your class more than anything else.</p>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="margot-header">
+					<p>See Margot's Friends!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<select class="form-control form-hank" id="races" onchange="raceChange()">
+						<optgroup label="Dwarf">
+						<option value="hill dwarf" selected="selected">Hill Dwarf</option>
+						<option value="mountain dwarf" selected="selected">Mountain Dwarf</option>
+						<optgroup label="Elf">
+						<option value="high elf">High Elf</option>
+						<option value="wood elf">Wood Elf</option>
+						<optgroup label="Halfling">
+						<option value="lightfoot halfling">Lightfoot Halfling</option>
+						<option value="stout halfling">Stout Halfling</option>
+						<optgroup label="Human">
+						<option value="human">Human</option>
+						<optgroup label="Dragonborn">
+						<option value="black dragonborn">Black Dragonborn</option>
+						<option value="blue dragonborn">Blue Dragonborn</option>
+						<option value="brass dragonborn">Brass Dragonborn</option>
+						<option value="bronze dragonborn">Bronze Dragonborn</option>
+						<option value="copper dragonborn">Copper Dragonborn</option>
+						<option value="gold dragonborn">Gold Dragonborn</option>
+						<option value="green dragonborn">Green Dragonborn</option>
+						<option value="red dragonborn">Red Dragonborn</option>
+						<option value="silver dragonborn">Silver Dragonborn</option>
+						<option value="white dragonborn">White Dragonborn</option>
+						<optgroup label="Gnome">
+						<option value="forest gnome">Forest Gnome</option>
+						<option value="rock gnome">Rock Gnome</option>
+						<optgroup label="Half-Elf">
+						<option value="half-elf">Half-Elf</option>
+						<optgroup label="Half-Orc">
+						<option value="half-orc">Half-Orc</option>
+						<optgroup label="Tiefling">
+						<option value="tiefling">Tiefling</option>
+					</select>
+
+					<div class="container-fluid race" id="dwarfImage">
+						<img src="images/Dwarf.png" alt="Margot with Xena the Dwarf"></img>
+					</div>
+					<div class="container-fluid race collapse" id="elfImage">
+						<img src="images/Elf.png" alt="Margot with Amy the Elf"></img>
+					</div>
+					<div class="container-fluid race collapse" id="halflingImage">
+						<img src="images/Halfling.png" alt="Margot with Daniil the Halfling"></img>
+					</div>
+					<div class="container-fluid race collapse" id="humanImage">
+						<img src="images/Human.png" alt="Margot with Caley the Human"></img>
+					</div>
+					<div class="container-fluid race collapse" id="dragonbornImage">
+						<img src="images/Dragonborn.png" alt="Margot with Balazar the Dragonborn"></img>
+					</div>
+					<div class="container-fluid race collapse" id="gnomeImage">
+						<img src="images/Gnome.png" alt="Margot with Anona the Gnome"></img>
+					</div>
+					<div class="container-fluid race collapse" id="halfelfImage">
+						<img src="images/HalfElf.png" alt="Margot with Cameron the Half-Elf"></img>
+					</div>
+					<div class="container-fluid race collapse" id="halforcImage">
+						<img src="images/HalfOrc.png" alt="Margot with Xiao Bao the Half-Orc"></img>
+					</div>
+					<div class="container-fluid race collapse" id="tieflingImage">
+						<img src="images/Tiefling.png" alt="Margot with Elliot the Tiefling"></img>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="margot-bodytext">
+						<div class="row">
+							<div class="container-fluid race" id="hilldwarfText">
+								<h4>Hill Dwarf</h4>
+								<h4>Xena and all other dwarves get:</h4>
+								<ul>
+									<li>+2 to their constitution score</li>
+									<li>25 base walking speed</li>
+									<li>Darkvision</li>
+									<li>Dwarven resilience</li>
+									<li>Dwarven combat training</li>
+									<li>Tool proficiency in Smith’s Tools, Brewer supplies, OR Mason’s tools</li>
+									<li>Stonecunning</li>
+									<li>Fluent in Common and Dwarvish</li>
+								</ul>
+								<h4>Hill dwarves also get:</h4>
+								<ul>
+									<li>+1 to their wisdom score</li>
+									<li>Dwarven Toughness</li>
+								</ul>
+								<h4>View more details below!</h4>
+							</div>
+							<div class="container-fluid race collapse" id="mountaindwarfText">
+								<h4>Mountain Dwarf</h4>
+								<h4>Xena and all other dwarves get:</h4>
+								<ul>
+									<li>+2 to their constitution score</li>
+									<li>25 base walking speed</li>
+									<li>Darkvision</li>
+									<li>Dwarven resilience</li>
+									<li>Dwarven combat training</li>
+									<li>Tool proficiency in Smith’s Tools, Brewer supplies, OR Mason’s tools</li>
+									<li>Stonecunning</li>
+									<li>Fluent in Common and Dwarvish</li>
+								</ul>
+								<h4>Mountain dwarves also get:</h4>
+								<ul>
+									<li>+1 to their strength score</li>
+									<li>Dwarven Armor Training</li>
+								</ul>
+								<h4>View more details below!</h4>
+							</div>
+						<div class="container-fluid race collapse" id="highelfText">
+							<h4>High Elf</h4>
+							<h4>Amy and all other elves get:</h4>
+							<ul>
+								<li>+2 to their dexterity score</li>
+								<li>30 base walking speed</li>
+								<li>Darkvision</li>
+								<li>Proficiency in perception</li>
+								<li>Fey Ancestry</li>
+								<li>Trance</li>
+								<li>Fluent in Common and Elvish</li>
+							</ul>
+							<h4>High elves also get:</h4>
+							<ul>
+								<li>+1 to their intelligence score</li>
+								<li>Elf Weapon Training</li>
+								<li>One Wizard cantrip</li>
+								<li>Fluency in one additional language</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="woodelfText">
+							<h4>Wood Elf</h4>
+							<h4>Amy and all other elves get:</h4>
+							<ul>
+								<li>+2 to their dexterity score</li>
+								<li>30 base walking speed</li>
+								<li>Darkvision</li>
+								<li>Proficiency in perception</li>
+								<li>Fey Ancestry</li>
+								<li>Trance</li>
+								<li>Fluent in Common and Elvish</li>
+							</ul>
+							<h4>Wood elves also get:</h4>
+							<ul>
+								<li>+1 to their wisdom score</li>
+								<li>Elf Weapon Training</li>
+								<li>Fleet of Foot</li>
+								<li>Mask of the Wild</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="lightfoothalflingText">
+							<h4>Lightfoot Halfling</h4>
+							<h4>Daniil and all other halflings get:</h4>
+							<ul>
+								<li>+2 to their dexterity score</li>
+								<li>25 base walking speed</li>
+								<li>Lucky</li>
+								<li>Brave</li>
+								<li>Halfling Nimbleness</li>
+								<li>Fluent in Common and the Halfling language</li>
+							</ul>
+							<h4>Lightfoot halflings also get:</h4>
+							<ul>
+								<li>+1 to their charisma score</li>
+								<li>Naturally Stealthy</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="stouthalflingText">
+							<h4>Stout Halfling</h4>
+							<h4>Daniil and all other halflings get:</h4>
+							<ul>
+								<li>+2 to their dexterity score</li>
+								<li>25 base walking speed</li>
+								<li>Lucky</li>
+								<li>Brave</li>
+								<li>Halfling Nimbleness</li>
+								<li>Fluent in Common and the Halfling language</li>
+							</ul>
+							<h4>Stout halflings also get:</h4>
+							<ul>
+								<li>+1 to their constitution score</li>
+								<li>Stout Resilience</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="humanText">
+							<h4>Human</h4>
+							<h4>Caley and all other humans get:</h4>
+							<ul>
+								<li>+1 to all attribute scores</li>
+								<li>30 base walking speed</li>
+								<li>Fluent in Common and one language of their choice</li>
+								<li>Option to choose Variant Human</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="blackdragonbornText">
+							<h4>Black Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Black dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Acid damage, 5 by 30 ft. line (Dex. save)</li>
+								<li>Damage Resistance: Acid</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="bluedragonbornText">
+							<h4>Blue Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Blue dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Lightning damage, 5 by 30 ft. line (Dex. save)</li>
+								<li>Damage Resistance: Lightning</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="brassdragonbornText">
+							<h4>Brass Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Brass dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Fire damage, 5 by 30 ft. line (Dex. save)</li>
+								<li>Damage Resistance: Fire</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="bronzedragonbornText">
+							<h4>Bronze Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Bronze dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Lightning damage, 5 by 30 ft. line (Dex. save)</li>
+								<li>Damage Resistance: Lightning</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="copperdragonbornText">
+							<h4>Copper Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Copper dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Acid damage, 5 by 30 ft. line (Dex. save)</li>
+								<li>Damage Resistance: Acid</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="golddragonbornText">
+							<h4>Gold Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Gold dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Fire damage, 15 ft. cone (Dex. save)</li>
+								<li>Damage Resistance: Fire</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="greendragonbornText">
+							<h4>Green Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Green dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Poison damage, 15 ft. cone (Con. save)</li>
+								<li>Damage Resistance: Poison</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="reddragonbornText">
+							<h4>Red Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Red dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Fire damage, 15 ft. cone (Dex. save)</li>
+								<li>Damage Resistance: Fire</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="silverdragonbornText">
+							<h4>Silver Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>Silver dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Cold damage, 15 ft. cone (Con. save)</li>
+								<li>Damage Resistance: Cold</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="whitedragonbornText">
+							<h4>White Dragonborn</h4>
+							<h4>Balazar and all other dragonborn get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their charisma score</li>
+								<li>30 base walking speed</li>
+								<li>Draconic Ancestry</li>
+								<li>Breath Weapon</li>
+								<li>Damage Resistance</li>
+								<li>Fluent in Common and Draconic</li>
+							</ul>
+							<h4>White dragonborn get:</h4>
+							<ul>
+								<li>Breath Weapon: Cold damage, 15 ft. cone (Con. save)</li>
+								<li>Damage Resistance: Cold</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="forestgnomeText">
+							<h4>Forest Gnome</h4>
+							<h4>Anona and all other gnomes get:</h4>
+							<ul>
+								<li>+2 to their intelligence score</li>
+								<li>25 base walking speed</li>
+								<li>Darkvision</li>
+								<li>Gnome Cunning</li>
+								<li>Fluent in Common and Gnomish</li>
+							</ul>
+							<h4>Forest gnomes also get:</h4>
+							<ul>
+								<li>+1 to their dexterity score</li>
+								<li>Natural Illusionist</li>
+								<li>Speak with Small Beasts</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="rockgnomeText">
+							<h4>Rock Gnome</h4>
+							<h4>Anona and all other gnomes get:</h4>
+							<ul>
+								<li>+2 to their intelligence score</li>
+								<li>25 base walking speed</li>
+								<li>Darkvision</li>
+								<li>Gnome Cunning</li>
+								<li>Fluent in Common and Gnomish</li>
+							</ul>
+							<h4>Rock gnomes also get:</h4>
+							<ul>
+								<li>+1 to their constitution score</li>
+								<li>Artificer's Lore</li>
+								<li>Tinker</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="halfelfText">
+							<h4>Half-Elf</h4>
+							<h4>Cameron and all other half-elves get:</h4>
+							<ul>
+								<li>+2 to their charisma score</li>
+								<li>+1 to two other attribute scores of their choice</li>
+								<li>30 base walking speed</li>
+								<li>Darkvision</li>
+								<li>Fey Ancestry</li>
+								<li>Skill Versatility</li>
+								<li>Fluent in Common, Elvish, and one other language of their choice</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="halforcText">
+							<h4>Half-Orc</h4>
+							<h4>Xiao Bao and all other half-orcs get:</h4>
+							<ul>
+								<li>+2 to their strength score</li>
+								<li>+1 to their constitution score</li>
+								<li>30 base walking speed</li>
+								<li>Darkvision</li>
+								<li>Menacing</li>
+								<li>Relentless Endurance</li>
+								<li>Savage Attacks</li>
+								<li>Fluent in Common and Orcish</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+						<div class="container-fluid race collapse" id="tieflingText">
+							<h4>Tiefling</h4>
+							<h4>Elliot and all other tieflings get:</h4>
+							<ul>
+								<li>+2 to their charisma score</li>
+								<li>+1 to their intelligence score</li>
+								<li>30 base walking speed</li>
+								<li>Darkvision</li>
+								<li>Menacing</li>
+								<li>Hellish Resistance</li>
+								<li>Infernal Legacy</li>
+								<li>Fluent in Common and Infernal</li>
+							</ul>
+							<h4>View more details below!</h4>
+						</div>
+					</div>
+					</div>
+						<div class="row">
+							<btn class="btn btn-lg btn-margot" id="raceSave" onclick="raceSave()">Save to Story Sheet</button>
+							</div>
+							<div class="row">
+								<div class="container-fluid collapse" id="raceSaveText">
+									<p>Saved!</p>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<!--Dwarf Race Text-->
+			<div class="container-fluid margot-bodytext race" id="dwarfTextFull">
+				<h4>Dwarf:</h4>
+				<h4>Meet Xena!</h4>
+				<p>Dwarves mature at the same rate as human, but they’re considered young until they reach the age of 50. On average, they live about 350 years. Xena is age 30, and still considered pretty young!</p>
+				<p>They’re about 4 to 5 feet tall and are considered “Medium” size. Xena is 4’6”, which is an average height for dwarves!</p>
+				<p>Their walking speed is 25 feet, but their speed isn’t reduced by wearing Heavy Armor.</p>
+				<p>Darkvision: Xena has darkvision, which means she can see in the dark! She can’t make out color in the darkness, only shades of gray.</p>
+				<p>Dwarven Resilience: Xena has resilience to poison damage, which means that whatever damage she would take is halved. She also has advantage on saving throws against poison.</p>
+				<p>Dwarven Combat Training: Being a dwarf, Xena was raised surrounded by classic dwarven weapons. She has proficiency with battleaxes, handaxes, throwing hammers, and warhammers.</p>
+				<p>Tool Proficiency: Dwarves get to pick whether they are proficient in smith’s tools, brewer’s supplies, or mason’s tools. Xena is proficient with smith’s tools, and likes making jewelry for fun.</p>
+				<p>Stonecunning: Dwarves have a special eye for stonework. Xena is considered proficient for History checks for stonework. Her proficiency bonus will be doubled!</p>
+				<p>Being a dwarf, Xena can speak Common and Dwarvish.</p>
+
+				<h4>There are two different subraces of dwarf:</h4>
+				<p>Hill Dwarf:</p>
+				<ul><li>Hill dwarves receive a +1 to wisdom</li>
+					<li>Dwarven Toughness: On first level, and every time you gain a level, add +1 to your hit point total. For example, Xena is a rogue. At level 1 her hit dice is 1d8 and her constitution is 16 (+3). Her hit points at level 1 is equal to 8 + 3 + 1, or 12. Next level she’ll add a 1d8 + 3 + 1 to her current total. </li>
+				</ul>
+				<p>Mountain Dwarf:</p>
+				<ul><li>Mountain dwarves receive a +1 to strength</li>
+					<li>Dwarven Armor Training: You have proficiency in light and medium armor. </li>
+				</ul>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="elfFullText">
+				<h4>Elf:</h4>
+				<h4>Meet Amy!</h4>
+				<p>Elves live much longer than humans and typically reach adulthood at 100 years old. Amy is 30, which is very young for an elf! </p>
+				<p>They’re about 5 to 6 feet tall, are shorter than humans on average and are considered “Medium” size. Amy is 5’.</p>
+				<p>Their walking speed is 30 feet.</p>
+				<p>Darkvision: Amy has darkvision, which means she can see in the dark! She can’t make out color in the darkness, only shades of gray.</p>
+				<p>Keen Senses: Amy, like all elves, is proficient in perception.</p>
+				<p>Fey Ancestry: Amy has advantage on saving throws against being charmed, and magic can’t put her to sleep.</p>
+				<p>Trance: Instead of sleeping, Amy meditates deeply for 4 hours a day. </p>
+				<p>Being an elf, Amy can speak Common and Elvish.</p>
+
+				<h4>There are two different subraces of elf:</h4>
+				<p>High Elf:</p>
+				<ul><li>High elves receive a +1 to intelligence.</li>
+					<li>Elf Weapon Training: High elves have proficiency with the longsword, shortsword, shortbow, and longbow.</li>
+					<li>High elves know one cantrip of their choice from the Wizard cantrip list.</li>
+					<li>High elves are fluent in one additional language of their choice.</li>
+				</ul>
+				<p>Wood Elf:</p>
+				<ul><li>Wood elves receive a +1 to wisdom.</li>
+					<li>Elf Weapon Training: High elves have proficiency with the longsword, shortsword, shortbow, and longbow.</li>
+					<li>Fleet of Foot: The base walking speed of wood elves increases to 35 feet.</li>
+					<li>Mask of the Wild: Wood elves can attempt to hide even when they are only lightly obscured by nature (such as foliage or mist).</li>
+				</ul>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="halflingFullText">
+				<h4>Halfling:<h4>
+				<h4>Meet Daniil!</h4>
+				<p>Halflings live about twice as long as humans and reach adulthood at age 20. Dani is 42, which makes him an adult!</p>
+				<p>They’re about 3 feet tall and are considered “Small” size. Daniil is 3’9”. He’s a bit on the taller side.</p>
+				<p>Their walking speed is 25 feet.</p>
+				<p>Lucky: When Daniil rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll.</p>
+				<p>Brave: Daniil has advantage on saving throws against being frightened.</p>
+				<p>Halfling Nimbleness: Daniil can can move through the space of any creature that is of a size larger than him.</p>
+				<p>Being a halfling, Daniil can speak Common and the Halfling language.</p>
+
+				<h4>There are two different subraces of halfling:</h4>
+				<p>Lightfoot Halfling:</p>
+				<ul><li>Lightfoot halflings receive a +1 to charisma.</li>
+					<li>Naturally Stealthy: Lightfoot halflings can attempt to hide even when they are obscured only by a creature that is at least one size larger than them.</li>
+				</ul>
+				<p>Stout Halfling:</p>
+				<ul><li>Stout halflings receive a +1 to constitution.</li>
+					<li>Stout Resilience: Stout halflings have advantage on saving throws against poison, and they have resistance against poison damage.</li>
+				</ul>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="humanFullText">
+				<h4>Human:</h4>
+				<h4>Meet Caley!</h4>
+				<p>Humans live exactly as long as humans and reach adulthood in their late teens. Caley is 20, which is … as old as it feels to us!</p>
+				<p>They vary widely in height from under 5 to over 6 feet and are considered “Medium” size. Caley is 6’0”. She’s a pretty tall lady!</p>
+				<p>Their walking speed is 30 feet.</p>
+				<p>Ability Scores: Caley and all other humans get +1 to every attribute.</p>
+				<p>Being a human, Caley is fluent in Common and one other language of her choice.</p>
+				<p>There are 9 different ethnicities of humans in the D&D world, but none of them have any special features. See your handbook for specifics such as common names and physical appearance!</p>
+
+				<h4>Note: There is a variant human that you can create. Here are the differences:</h4>
+				<p>Variant Human:</p>
+				<ul><li>Ability Scores: Caley would get +1 to two different stats of her choice. For example, she can get +1 to Intelligence and Charisma.</li>
+					<li>Skills: Caley would get proficiency in a skill of her choice. She’s a big nerd, so she’s proficient in History.</li>
+					<li>Feat: Caley gets one feat of her choice. You can see feats in the handbook on page 165. She chose Sentinel.</li>
+				</ul>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="dragonbornFullText">
+				<h4>Dragonborn:</h4>
+				<h4>Meet Balazar!</h4>
+				<p>Dragonborns age faster than humans and live to be about 80, but reach adulthood at age 15. Balazar is age 20, which means he’s no longer considered a young adult.</p>
+				<p>They are typically over 6 feet tall and are considered “Medium” size. Balazar is 6’3”. He’s a pretty average height for a dragonborn.</p>
+				<p>Their walking speed is 30 feet.</p>
+				<p>Ability Scores: Balazar, like all dragonborn, gets +2 to strength and +1 to charisma.</p>
+				<p>Draconic Ancestry: A dragonborn’s draconic ancestry determines their breath weapon and damage resistance. Balazar is a Gold dragonborn, which means that his damage type is Fire and his breath weapon is a 15 foot cone that requires a dexterity save. He is also resistant to Fire damage.</p>
+					<ul>
+						<li>Black: Acid, 5 by 30 ft. line (Dex. save)</li>
+						<li>Blue: Lightning, 5 by 30 ft. line (Dex. save)</li>
+						<li>Brass: Fire, 5 by 30 ft. line (Dex. save)</li>
+						<li>Bronze: Lightning, 5 by 30 ft. line (Dex. save)</li>
+						<li>Copper: Acid, 5 by 30 ft. line (Dex. save)</li>
+						<li>Gold: Fire, 15 ft. cone (Dex. save)</li>
+						<li>Green: Poison, 15 ft. cone (Con. save)</li>
+						<li>Red: Fire, 15 ft. cone (Dex. save)</li>
+						<li>Silver: Cold, 15 ft. cone (Con. save)</li>
+						<li>White: Cold, 15 ft. cone (Con. save)</li>
+					</ul>
+				<p>Breath Weapon: When a dragonborn uses their breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by the dragonborn’s draconic ancestry. The DC for this saving throw equals 8 + the dragonborn’s Constitution modifier + their proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After the dragonborn uses their breath weapon, they can’t use it again until they complete a short or long rest.</p>
+				<p>As a dragonborn, Balazar is fluent in Common and Draconic.</p>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="gnomeFullText">
+				<h4>Gnome:</h4>
+				<h4>Meet Anona!</h4>
+				<p>Gnomes mature at the same rate as humans but live to be 350-500, so they reach adulthood at around 40. Anona is 50, which makes her a young adult!</p>
+				<p>They’re between 3 and 4 feet tall and are considered “Small” size. Anona is 3’6”, which means she’s average height for a gnome!</p>
+				<p>Their walking speed is 25 feet.</p>
+				<p>Darkvision: Anona has darkvision, which means she can see in the dark! She can’t make out color in the darkness, only shades of gray.</p>
+				<p>Gnome Cunning: Anona, like all gnomes, has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+				<p>Being a gnome, Anona can speak Common and Gnomish.</p>
+
+				<h4>There are two different subraces of gnome:</h4>
+				<p>Forest Gnome:</p>
+				<ul><li>Forest gnomes receive a +1 to dexterity.</li>
+					<li>Natural Illusionist: Forest gnomes know the minor illusion cantrip.</li>
+					<li>Speak with Small Beasts: Forest gnomes can communicate simple ideas with beasts classified as Small or smaller.</li>
+				</ul>
+				<p>Rock Gnome:</p>
+				<ul><li>Rock gnomes receive a +1 to constitution.</li>
+					<li>Artificer's Lore: Whenever rock gnomes make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, they can add twice their proficiency bonus.</li>
+					<li>Tinker: Rock gnomes have proficiency with tinker’s tools. Using those tools, they can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless they spend 1 hour repairing it to keep the device functioning), or when they use your action to dismantle it; at that time, they can reclaim the materials used to create it. They can have up to three such devices active at a time.</li>
+						<ul>
+							<li>Clockwork Toy: This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</li>
+							<li>Fire Starter: The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</li>
+							<li>Music Box: When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed.</li>
+						</ul>
+				</ul>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="halfelfFullText">
+				<h4>Half-Elf:</h4>
+				<h4>Meet Cameron!</h4>
+				<p>Half-elves mature at the same rate as humans but live to be around 180, so they reach adulthood at around 20.</p>
+				<p>They’re about the same size as humans at between 5 and 6 feet tall and are considered “Medium” size. Cameron is 5’4”. He’s a bit on the short side.</p>
+				<p>Their walking speed is 30 feet.</p>
+				<p>Darkvision: Cameron has darkvision, which means he can see in the dark! He can’t make out color in the darkness, only shades of gray.</p>
+				<p>Fey Ancestry: Cameron has advantage on saving throws against being charmed, and magic can’t put him to sleep.</p>
+				<p>Skill Versatility: Cameron and all other half-elves gain proficiency in two skills of their choice. Cam is training to become a doctor, so he’s proficient in Medicine. He’s also proficient in Perception, because it fits with his personality.</p>
+				<p>Being a half-elf, Cameron can speak Common, Elvish, and one other language of his choice.</p>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="halforcFullText">
+				<h4>Half-Orc:</h4>
+				<h4>Meet Xiao Bao!</h4>
+				<p>Half-orcs age faster than humans and live to be around 75, so they reach adulthood at age 14. Xiao Bao is 34, which means they are a middle aged person.</p>
+				<p>Half orcs are taller and bulkier than humans, range from 5 to well over 6 feet tall, and are considered “Medium” size. Xiao Bao is 6’2”, which makes them an average height for a half-orc.</p>
+				<p>Their walking speed is 30 feet.</p>
+				<p>Darkvision: Xiao Bao has darkvision, which means they can see in the dark! They can’t make out color in the darkness, only shades of gray.</p>
+				<p>Menacing: Xiao Bao, like all half-orcs, is proficient in Intimidation. This is due to their big stature.</p>
+				<p>Relentless Endurance: Xiao Bao is made of some tough stuff. When they or any other half-orcs are reduced to 0 hit points but not killed outright, they can drop to 1 hit point instead. They can’t use this feature again until they finish a long rest.</p>
+				<p>Savage Attacks: When half-orcs score a critical hit with a melee weapon attack, they can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+				<p>Being a half-orc, Xiao Bao is fluent in Common and Orcish.</p>
+			</div>
+			<div class="container-fluid margot-bodytext race collapse" id="tieflingFullText">
+				<h4>Tiefling:</h4>
+				<h4>Meet Elliot!</h4>
+				<p>Tieflings age at the same rate as humans but live a few years longer. Elliot is 21, which makes them similar in maturity to a human of the same age.</p>
+				<p>They are about the same size and build as humans, and are considered “Medium” size. Elliot is 5’7”.</p>
+				<p>Their walking speed is 30 feet.</p>
+				<p>Darkvision: Elliot has darkvision, which means they can see in the dark! They can’t make out color in the darkness, only shades of gray.</p>
+				<p>Hellish Resistance: Elliot, like all tieflings, has resistance to fire damage. If something attacked Elliot with fire, Elliot would only take half of the damage a different person would receive.</p>
+				<p>Infernal Legacy: Tieflings know the thaumaturgy cantrip. Once they reach 3rd level, they can cast the hellish rebuke spell once per day as a 2nd-level spell. Once they reach 5th level, they can also cast the darkness spell once per day. </p>
+				<p>Being a tiefling, Elliot is fluent in Common and Infernal.</p>
+			</div>
+
+		</div>
+
+    <!-- footer-->
+  <div class="footer">
+    <p>Copyright © <a href="https://missdurianne.carrd.co/">Jodie Lim</a> and <a href="https://laurenmring.com/portfolio.html">Lauren Ring.</a> All rights reserved.</p>
+  </div>
+    <!-- footer-->
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/introHCI.js"></script>
+		<script src="js/Races.js"></script>
+		<script src="js/MadLibs.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+	</html>
